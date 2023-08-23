@@ -6,6 +6,8 @@ on:
   pull_request_target:
     branches: ["cdk-pipeline"]
     paths: ["demos-pipeline/**", ".github/workflows/test-cdk.yml"]
+
+
 jobs:
   Run-CDK-Tests:
     runs-on: ubuntu-latest
